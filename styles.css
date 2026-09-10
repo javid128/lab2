@@ -1,0 +1,53 @@
+/* styles.css - Hoja de estilos del Laboratorio 2 */
+
+body {
+  background-color: #f4f6f9;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Encabezado con el color institucional (rojo Universidad Libre) */
+.app-header {
+  background: linear-gradient(135deg, #8b0000, #b22222);
+}
+
+.app-header h1 {
+  letter-spacing: 1px;
+}
+
+/* Tarjetas de cada figura */
+.figura-card {
+  border: none;
+  border-radius: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.figura-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12) !important;
+}
+
+.figura-card .card-title {
+  color: #8b0000;
+  font-weight: bold;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #8b0000;
+  border-color: #8b0000;
+}
+
+.btn-primary:hover {
+  background-color: #b22222;
+  border-color: #b22222;
+}
+
+/* Resultados */
+.alert {
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer {
+  border-top: 1px solid #e0e0e0;
+}
